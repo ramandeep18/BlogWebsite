@@ -1,0 +1,13 @@
+<%-include("partials/header.ejs")%>
+<h1>Welcome to Our Literary Oasis</h1>
+<p><%=content%></p>
+<% blogs.forEach((blog)=> {%>
+    <h1><%=blog.blogname%></h1>
+    <%if(blog.blogcontent){%>
+    <p><%=blog.blogcontent.substring(0,100)+"..."%>
+        
+     <a href="/posts/<%= blog._id%>"> Read More</a> 
+     <%}%>
+    </p>
+<% }); %>
+<%-include("partials/footer.ejs")%>
