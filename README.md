@@ -1,6 +1,6 @@
 Blog Haven App
 
-This is a simple blog post application built using Express.js and MongoDB. It allows users to create and blog posts.
+This is a simple blog post application built using Express.js and MongoDB. It allows users to create and view blog posts.
 
 #Prerequisites:
 
